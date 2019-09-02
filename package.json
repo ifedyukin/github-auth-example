@@ -1,0 +1,29 @@
+{
+  "name": "github-auth-example",
+  "version": "1.0.0",
+  "description": "Github auth service example",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon --exec \"node -r dotenv/config\" main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifedyukin/github-auth-example.git"
+  },
+  "author": "Igor Fedyukin <me@ifedyukin.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ifedyukin/github-auth-example/issues"
+  },
+  "homepage": "https://github.com/ifedyukin/github-auth-example#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "dotenv": "^8.0.0",
+    "nodemon": "^1.19.0"
+  }
+}
